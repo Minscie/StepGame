@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="20dp">
+    <!-- Layout has no background on purpose for it to be see through -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About this application"
+        android:textAlignment="center"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="17dp"
+        android:text="This demo was made by Sami Hurmerinta during Android Application Development TI00AB76-3014 course in Metropolia Leppävaara.\n\nAll practices were done on Android Studio without any game engine libraries.\n\nIcons are made by Freepik from flaticon.com, other graphics and sounds are from OpenGameArt.org created by Yar, Set Galbraith and SketchyLogic" />
+</LinearLayout>

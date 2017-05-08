@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- This handles the animation of the coin when it has been clicked -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+    <!-- This moves the coin to left bottom corner -->
+    <translate
+        android:toXDelta="-15%p"
+        android:toYDelta="35%p"
+        android:duration="400"
+        />
+
+    <!-- This scales the coin to 0 -->
+    <scale
+        android:duration="800"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="-15%p"
+        android:pivotY="60%p"
+        android:toXScale="0.0"
+        android:toYScale="0.0" />
+
+
+</set>

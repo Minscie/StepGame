@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="600dp"
+    android:layout_height="800dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/background_tile"
+    tools:context=".FragmentWorld"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/worldView">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/oaktreeIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/oaktree"
+        />
+
+    <ImageView
+        android:id="@+id/castleIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="226dp"
+        app:srcCompat="@drawable/castle" />
+
+    <ImageView
+        android:id="@+id/pinetreeIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="141dp"
+        android:layout_marginEnd="62dp"
+        app:srcCompat="@drawable/pinetree" />
+
+    <ImageView
+        android:id="@+id/firtreeIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/firtree"
+        android:layout_marginTop="21dp" />
+
+    <ImageView
+        android:id="@+id/innIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inn"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="37dp" />
+
+    <ImageView
+        android:id="@+id/chapelIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chapel"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:id="@+id/clockIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clock" />
+
+    <ImageView
+        android:id="@+id/fishIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fish" />
+
+    <ImageView
+        android:id="@+id/fruitIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fruit" />
+
+
+
+    <ImageView
+        android:id="@+id/tavernIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tavern" />
+
+    <ImageView
+        android:id="@+id/houseIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/house" />
+
+    <ImageView
+        android:id="@+id/tailorIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tailor" />
+
+    <ImageView
+        android:id="@+id/thatchedIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/thatched" />
+
+    <ImageView
+        android:id="@+id/treehouseIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/treehouse" />
+
+    <ImageView
+        android:id="@+id/villaIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/villa" />
+</RelativeLayout>

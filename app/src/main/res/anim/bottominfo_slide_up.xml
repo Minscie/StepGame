@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- This handles animation for the information activity which slides up from the bottom
+                                            also used this effect on the credits activity-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <alpha android:interpolator="@android:anim/accelerate_interpolator"
+        android:fromAlpha="0.0" android:toAlpha="1.0"
+        android:duration="1400" />
+
+    <translate
+        android:duration="1000"
+        android:fromYDelta="25%p"
+        android:toYDelta="0%p" />
+
+</set>

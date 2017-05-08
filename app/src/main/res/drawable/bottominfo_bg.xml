@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This handles rounded corners and background colors for the information activity which slides up from the bottom -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#99CFFF"/>
+    <stroke android:width="10.5dip" android:color="@android:color/holo_blue_light" />
+    <corners android:topLeftRadius="17dp" android:topRightRadius="17dp" />
+    <padding android:left="3dp" android:top="3dp" android:right="3dp" android:bottom="1dp"/>
+</shape>

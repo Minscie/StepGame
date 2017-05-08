@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This handles the animation of the coin when it appears in the center of the screen -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+    <!-- This moves the coin from outside of the screen to center -->
+    <translate
+        android:fromYDelta="-80%p"
+        android:toYDelta="0"
+        android:duration="800"
+        />
+
+    <!-- This scales the coin from 0 to normal size and flips from horizontal mirror-->
+    <scale
+        android:duration="800"
+        android:fromXScale="-2.0"
+        android:fromYScale="-2.0"
+        android:pivotX="50%"
+        android:pivotY="100%"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+</set>

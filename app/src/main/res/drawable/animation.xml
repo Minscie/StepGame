@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--- oneshot="true" means it will run animation once when started. -->
+<animation-list android:oneshot="true" xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/gold1"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold2"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold3"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold4"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold5"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold6"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold7"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold8"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold9"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold10"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/gold1"
+        android:duration="80" />
+
+    </animation-list>

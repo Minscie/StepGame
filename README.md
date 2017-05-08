@@ -5,14 +5,14 @@ Technologies: Java, Android
 Summary: A game demonstration created during Android Application Development T100AB76-3014 course in Metropolia Leppävaara  
 Source: https://github.com/minscie/stepgame
 
-##Prerequisite
+## Prerequisite
 
 Android Studio 2.3.1 or newer
 Minimum SDK version: 23 or newer
 Build tools version 25.0.0 or newer
 SDK verson lower than the 23 has not been tested and the development was done mainly on a high end phone.
 
-##How it works?
+## How it works?
 
 - This application counts your steps while showing the progress in realtime. By default you reach levels from each steps == (100 * level) taken.
 - You get a coin as a reward from each level. An animated coin will eventually appear in the COINS view to be collected.
@@ -24,5 +24,6 @@ There is 1 main activity, which holds the constant buttons and the changeable fr
 
 For various reasons the game was set to be played only in a portrait mode. To immerse the player into the game, all activites are in fullscreen mode, hiding the default android navigation and top bar.
 
-Database
+## SQLite database layout
+
 ![database image](https://github.com/Minscie/StepGame/blob/master/Game_Database.PNG)

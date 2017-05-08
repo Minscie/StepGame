@@ -1,9 +1,9 @@
 # Step Game
 ---------
-Author: Sami Hurmerinta
-Technologies: Java, Android
-Summary: A game demonstration created during Android Application Development T100AB76-3014 course in Metropolia Leppävaara  
-Source: https://github.com/minscie/stepgame
+### Author: Sami Hurmerinta
+### Technologies: Java, Android
+### Summary: A game demonstration created during Android Application Development T100AB76-3014 course in Metropolia Leppävaara  
+### Source: https://github.com/minscie/stepgame
 
 ## Prerequisite
 

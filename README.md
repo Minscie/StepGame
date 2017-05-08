@@ -1,16 +1,16 @@
 # Step Game
 ---------
-#### Author: Sami Hurmerinta
-#### Technologies: Java, Android
-#### Summary: A game demonstration created during Android Application Development T100AB76-3014 course in Metropolia Leppävaara  
-#### Source: https://github.com/minscie/stepgame
+##### Author: Sami Hurmerinta
+##### Technologies: Java, Android
+##### Summary: A game demonstration created during Android Application Development T100AB76-3014 course in Metropolia Leppävaara  
+##### Source: https://github.com/minscie/stepgame
 
 ## Prerequisite
 
-Android Studio 2.3.1 or newer
-Minimum SDK version: 23 or newer
-Build tools version 25.0.0 or newer
-SDK verson lower than the 23 has not been tested and the development was done mainly on a high end phone.
+##### Android Studio 2.3.1 or newer
+##### Minimum SDK version: 23 or newer
+##### Build tools version 25.0.0 or newer
+##### SDK verson lower than the 23 has not been tested and the development was done mainly on a high end phone.
 
 ## How it works?
 

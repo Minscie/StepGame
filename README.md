@@ -21,7 +21,8 @@ SDK verson lower than the 23 has not been tested and the development was done ma
 - By touching the PROGRESSBAR you're able to see your stats like level, coins and total steps taken.
 
 There is 1 main activity, which holds the constant buttons and the changeable fragments WORLD, SHOP and COINS. Clickable bottom progressbar is also a fragment in the main activity which opens resized activity as a pop-up.
+
 For various reasons the game was set to be played only in a portrait mode. To immerse the player into the game, all activites are in fullscreen mode, hiding the default android navigation and top bar.
 
 Database
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![database image](https://github.com/Minscie/StepGame/blob/master/Game_Database.PNG)

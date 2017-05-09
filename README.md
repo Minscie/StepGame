@@ -14,7 +14,7 @@ SDK verson lower than the 23 has not been tested and the development was done ma
 
 ##How it works?
 
-- This application counts your steps while showing the progress in realtime. By default you reach levels from each steps == (100 * level) taken.
+- This application counts your steps while showing the progress in realtime. By default you reach levels from each steps == (1000 * level) taken.
 - You get a coin as a reward from each level. An animated coin will eventually appear in the COINS view to be collected.
 - With the coins you're able to purchase items from the SHOP view. Only one item each in this demo.
 - When you buy an item, the item will appear as an imageview in the top left corner of the WORLD view. You can freely change the location of the items and build your own village.
@@ -26,3 +26,11 @@ For various reasons the game was set to be played only in a portrait mode. To im
 
 Database
 ![database image](https://github.com/Minscie/StepGame/blob/master/Game_Database.PNG)
+
+
+
+
+## Changes after the presentation
+- Fixed one bug. Firtree was visible at start
+- Modified the level modifier from 100 to 1000. To level up 10x slower
+- Modified the SQLite database starting coins to 20 so you can't buy everything at start

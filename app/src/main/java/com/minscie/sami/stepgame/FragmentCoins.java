@@ -31,7 +31,7 @@ public class FragmentCoins extends android.app.Fragment {
     private ImageView coinImageView;
     private AnimationDrawable coinFlipAnimation;
 
-    private int level_modifier = 100;   //100 * level , change this to make the game longer also needs to be changed in the progress view
+    private int level_modifier = 1000;   //1000 * level , change this to make the game longer also needs to be changed in the progress view
 
     private Animation coinAppearAnimation;
     private Animation coinClickedAnimation;

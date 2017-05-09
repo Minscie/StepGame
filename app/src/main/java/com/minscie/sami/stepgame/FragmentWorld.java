@@ -92,6 +92,9 @@ public class FragmentWorld extends android.app.Fragment {
         //Items that haven't been bought are set to be invisible
         //Silly repetitive code in this case
         if (Integer.valueOf(ITEMS[1]) == 0) {
+            firtree.setVisibility(View.INVISIBLE);
+        }
+        if (Integer.valueOf(ITEMS[1]) == 0) {
             pinetree.setVisibility(View.INVISIBLE);
         }
         if (Integer.valueOf(ITEMS[2]) == 0) {

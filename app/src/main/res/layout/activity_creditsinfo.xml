@@ -20,5 +20,5 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:textSize="17dp"
-        android:text="This demo was made by Sami Hurmerinta during Android Application Development TI00AB76-3014 course in Metropolia Leppävaara.\n\nAll practices were done on Android Studio without any game engine libraries.\n\nIcons are made by Freepik from flaticon.com, other graphics and sounds are from OpenGameArt.org created by Yar, Set Galbraith and SketchyLogic" />
+        android:text="This demo was made by Sami Hurmerinta during Android Application Development TI00AB76-3014 course in Metropolia Leppävaara.\n\nAll the development was done on Android Studio without any game engine libraries.\n\nIcons are made by Freepik from flaticon.com, other graphics and sounds are from OpenGameArt.org created by Yar, Set Galbraith and SketchyLogic" />
 </LinearLayout>

@@ -28,7 +28,7 @@ public class FragmentProgress extends android.app.Fragment implements SensorEven
     private int initial_total_steps;
 
     private int to_next_lvl;
-    private int lvl_modifier = 100; //100 * level , change this to make the game longer also needs to be changed in the coins view
+    private int lvl_modifier = 1000; //1000 * level , change this to make the game longer also needs to be changed in the coins view
     private int level;
     private int old_level = -1;
 

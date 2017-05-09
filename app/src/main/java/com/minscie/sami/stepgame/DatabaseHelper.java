@@ -13,7 +13,7 @@ import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "GAME.db";
-    private static final int DB_VERSION = 100;       //Update version to recreate the database. Tables dropped and onCreate executed
+    private static final int DB_VERSION = 101;       //Update version to recreate the database. Tables dropped and onCreate executed
 
     private static final String PLAYER_TABLE = "PLAYER";
 
@@ -63,7 +63,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
         db.execSQL("INSERT INTO PLAYER VALUES (" +
-                "1,35, 1, 0, 0)");
+                "1,20, 1, 0, 0)");
 
         db.execSQL("INSERT INTO INVENTORY VALUES (" +
                 "0,1, 'Fir Tree', 'Group of small fir trees'," +

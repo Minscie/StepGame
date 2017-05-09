@@ -24,19 +24,15 @@ There is 1 main activity, which holds the constant buttons and the changeable fr
 
 For various reasons the game was set to be played only in a portrait mode. To immerse the player into the game, all activites are in fullscreen mode, hiding the default android navigation and top bar.
 
-<<<<<<< HEAD
-Database
+
+## SQLite database layout
+
 ![database image](https://github.com/Minscie/StepGame/blob/master/Game_Database.PNG)
+>>>>>>> origin/master
 
-
-
+=======
 
 ## Changes after the presentation
 - Fixed one bug. Firtree was visible at start
 - Modified the level modifier from 100 to 1000. To level up 10x slower
 - Modified the SQLite database starting coins to 20 so you can't buy everything at start
-=======
-## SQLite database layout
-
-![database image](https://github.com/Minscie/StepGame/blob/master/Game_Database.PNG)
->>>>>>> origin/master
